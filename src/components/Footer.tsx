@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="text-center">
           <p className="text-muted-foreground">
-            © {new Date().getFullYear()} Fariza FARADJI. Tous droits réservés.
+            © {new Date().getFullYear()} Oussama Eljed. Tous droits réservés.
           </p>
           <p className="text-sm text-muted-foreground mt-2">
           </p>
