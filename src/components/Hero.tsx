@@ -2,7 +2,7 @@ import { ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
-  const scrollTo = (id) => {
+  const scrollTo = (id: string) => {
     const el = document.querySelector(id);
     if (el) el.scrollIntoView({ behavior: "smooth" });
   };
@@ -18,14 +18,20 @@ const Hero = () => {
       {/* Content */}
       <div className="z-10 text-center px-6 max-w-3xl">
         <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight">
-          Bonjour, je suis
-          <span className="block mt-2 text-blue-400">
-            Fariza Faradji
-          </span>
+          Hi, I’m
+          <span className="block mt-2 text-blue-400">Oussama Eljed</span>
         </h1>
 
         <p className="mt-6 text-lg md:text-xl text-gray-300">
-          Étudiante en informatique • Développement & Data
+          Networks & Telecommunications Engineering Student <br />
+          Focused on Network Security & Cybersecurity
+        </p>
+
+        <p className="mt-6 text-base md:text-lg text-gray-400 leading-relaxed">
+          I’m an ENIG engineering student passionate about secure network
+          architectures, Fortinet solutions, VPNs, and hands-on cybersecurity
+          labs. Currently seeking a Final Year Project (FYP) in Networking,
+          Network Security, or Cybersecurity.
         </p>
 
         <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
@@ -34,7 +40,7 @@ const Hero = () => {
             className="px-8 text-lg bg-blue-500 hover:bg-blue-600"
             onClick={() => scrollTo("#about")}
           >
-            Découvrir mon profil
+            Explore my profile
           </Button>
 
           <Button
@@ -42,7 +48,7 @@ const Hero = () => {
             className="px-8 text-lg bg-blue-500 hover:bg-blue-600"
             onClick={() => scrollTo("#projects")}
           >
-            Voir mes projets
+            View my projects
           </Button>
 
           <Button
@@ -58,9 +64,8 @@ const Hero = () => {
             "
             onClick={() => scrollTo("#contact")}
           >
-            Me contacter
+            Contact me
           </Button>
-
         </div>
       </div>
 
