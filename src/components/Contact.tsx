@@ -7,36 +7,36 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "farizafaradji@gmail.com",
-      href: "mailto:farizafaradji@gmail.com",
+      value: "oussamaeljed21@gmail.com",
+      href: "mailto:oussamaeljed21@gmail.com",
     },
     {
       icon: Phone,
       label: "Téléphone",
-      value: "Sur demande",
-      href: "#",
+      value: "+216 58800977",
+      href: "tel:+216 58800977",
     },
     {
       icon: MapPin,
       label: "Localisation",
-      value: "Nanterre, Île-de-France",
+      value: "Borj Louzir, Ariana, Tunisia",
       href: "#",
     },
   ];
 
   const socialLinks = [
-    { icon: Linkedin, href: "https://www.linkedin.com/in/fariza-faradji", label: "LinkedIn" },
-    { icon: Github, href: "https://github.com/fari-za", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/oussama-eljed-b474a12ba/", label: "LinkedIn" },
+    { icon: Github, href: "https://github.com/oussmmm/", label: "GitHub" },
   ];
 
   return (
     <section id="contact" className="py-20 bg-section-bg">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Contactez-moi</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Contact me</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-4" />
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Vous avez un projet en tête ? N'hésitez pas à me contacter !
+           For more information, please feel free to contact me.
           </p>
         </div>
 
@@ -68,7 +68,7 @@ const Contact = () => {
 
           {/* Social Links */}
           <Card className="p-8 animate-slide-up" style={{ animationDelay: "0.3s" }}>
-            <h3 className="text-2xl font-bold text-center mb-6">Retrouvez-moi sur</h3>
+            <h3 className="text-2xl font-bold text-center mb-6">Find me on</h3>
             <div className="flex justify-center gap-4">
               {socialLinks.map((social, index) => (
                 <Button
@@ -94,7 +94,7 @@ const Contact = () => {
           {/* Call to Action */}
           <div className="text-center mt-12 animate-fade-in">
             <Button size="lg" className="text-lg px-8" asChild>
-              <a href="mailto:farizafaradji@gmail.com">
+              <a href="mailto:oussameljed21@gmail.com">
                 <Mail className="w-5 h-5 mr-2" />
                 Envoyer un email
               </a>
