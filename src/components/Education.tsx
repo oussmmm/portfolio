@@ -4,22 +4,16 @@ import { Card } from "@/components/ui/card";
 const Education = () => {
   const education = [
     {
-      degree: "Licence 3 Informatique",
-      institution: "CY Cergy Paris Université",
-      period: "2025 - 2026",
-      description: "Bases de Données, Probabilités et statistiques, Réseaux, Algorithmique et Structures de données avancées, Introduction à la science des données, Introduction à l'IA, Gestion de projet, Développement Web Avancé",
+      degree: "Final-year Networks & Telecommunications Engineering",
+      institution: "National Engineering School of Gabes",
+      period: "2023 - 2026",
+      description: "Engineering degree specializing in networks, network security, cybersecurity, cloud computing, development, telecommunications, Devops and AI technologies.",
     },
     {
-      degree: "Licence 2 Informatique",
-      institution: "CY Cergy Paris Université",
-      period: "2024 - 2025",
-      description: "Moyenne de 15/20",
-    },
-    {
-      degree: "Licence 1 et 2 Informatique",
-      institution: "Université Mouloud Mammeri de Tizi-Ouzou",
-      period: "2022 - 2024",
-      description: "Moyenne de 14/20",
+      degree: "Preparatory Cycle in Math & Physics",
+      institution: "IPEIB Bizerte",
+      period: "2021 - 2023",
+      description: "Rigorous preparatory training in mathematics and physics for engineering studies",
     },
   ];
 
@@ -27,7 +21,7 @@ const Education = () => {
     <section id="education" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Parcours Académique</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Academic Background</h2>
           <div className="w-20 h-1 bg-primary mx-auto" />
         </div>
 
