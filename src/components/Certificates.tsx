@@ -6,74 +6,115 @@ import { Badge } from "@/components/ui/badge";
 const Certificates = () => {
   const certificates = [
     {
-      title: "Fondamentaux de l’analyse de données",
+      title: "CCNA 1 (Introduction to Networks)",
       issuer: "Cisco Networking Academy",
-      date: "31 Décembre 2025",
-      description: "Formation aux concepts fondamentaux de la science des données et à l'analyse de données",
-      skills: ["Collection de données", "Validation de données", "Analyse de données"],
+      date: "23 May 2024",
+      description: "Fundamental networking concepts, including network topologies, protocols, and device communication.",
+      skills: ["LAN", "WAN", "OSI", "TCP/IP", "Communication protocols", "network troubleshooting", "Network devices", "Network topologies"],
       badge: true,
-      image: "/portfolio/certificates/data_analytics_essentials.png",
-      pdfUrl: "/portfolio/certificates/Data_Analytics_Essentials_certificate_fariza-faradji.pdf",
-      badgeUrl: "https://www.credly.com/badges/7a37dbc7-4fa8-4adf-a429-7f6585f0e3c8/public_url",
+      image: "/portfolio/certificates/ccna1.png",
+      pdfUrl: "/portfolio/certificates/ccna1pdf.pdf",
+      badgeUrl: "https://www.credly.com/earner/earned/badge/239873de-96a6-4577-a4e1-237233d15fde",
     },
 
     {
-      title: "Introduction à la science des données",
+      title: "CCNA 2 (Switching, Routing & Wireless Essentials)",
       issuer: "Cisco Networking Academy",
-      date: "26 Octobre 2025",
-      description: "Bases de l’analyse et de la visualisation de données",
+      date: "25 February 2025",
+      description: "covering advanced network concepts, including switching, routing, and wireless network fundamentals for enterprise environments.",
       skills: [
-        "Tableaux de bord",
-        "Analyse de données",
-        "Data storytelling",
-        "Visualisation de données", "Excel",
-        "SQL",
-        "Tableau"
+        "Routing fundamentals",
+        "Wireless networking basics",
+        "Network security essentials",
+        "LAN switching",
       ],
       badge: true,
-      image: "/portfolio/certificates/intro_data_science.png",
-      pdfUrl: "/portfolio/certificates/Introduction_Data_Science.pdf",
-      badgeUrl: "https://www.credly.com/badges/83f35c33-fe60-4246-b131-b37713690dd6",
+      image: "/portfolio/certificates/ccna2.png",
+      pdfUrl: "/portfolio/certificates/ccna2pdf.pdf",
+      badgeUrl: "https://www.credly.com/earner/earned/badge/de86c944-bbcb-4cfa-9158-f437678ac42a",
     },
 
     {
-      title: "Introduction à la Cybersécurité",
+      title: "CCNA 3 (Enterprise Networking, Security & Automation)",
       issuer: "Cisco Networking Academy",
-      date: "2024",
-      description: "Formation complète sur les fondamentaux de la cybersécurité et les meilleures pratiques de protection",
+      date: "19 December 2025",
+      description: "focusing on enterprise networking, network security principles, and automation using modern network management tools.",
+      skills: ["Virtualization", "Network Automation Basics", "Quality Of Service (QoS)", "Network Address Translation (NAT)", "Security Threat Mitigation", "Software Driven Networks"],
+      pdfUrl: "/portfolio/certificates/ccna3pdf.pdf",
+      image: "/portfolio/certificates/ccna3.png",
+      badgeUrl: "https://www.credly.com/earner/earned/badge/2aa9cda8-bea2-4052-a901-c2f7e34a3d77",
+    },
+
+    {
+      title: "Introduction to Cybersecurity",
+      issuer: "Cisco Networking Academy",
+      date: "19 October 2025",
+      description: "Comprehensive training on cybersecurity fundamentals and best protection practices",
       skills: [
-        "Cybersécurité & bonnes pratiques",
-        "Réseaux & vulnérabilités",
+        "Cybersecurity & Best Practices",
+        "Networks & vulnerabilities",
         "Protection des données",
         "Détection des menaces",
-        "Sécurité informatique"
+        "IT security"
       ],
 
       badge: true,
-      image: "/portfolio/certificates/cybersecurity.png",
-      pdfUrl: "/portfolio/certificates/cybersecurity.pdf",
-      badgeUrl: "https://www.credly.com/badges/5dfe5dd9-5766-4ccc-8abb-f13c6f2db9b0",
+      image: "/portfolio/certificates/introcyber.png",
+      pdfUrl: "/portfolio/certificates/introcyberpdf.pdf",
+      badgeUrl: "https://www.credly.com/earner/earned/badge/3d479e1e-8527-4067-91fc-891b593dc520",
     },
 
     {
-      title: "Google Developer Student Club (GDSC)",
-      issuer: "Google",
-      date: "2023",
-      description: "Participation active au programme GDSC pendant 6 mois. centrée sur le développement web et les technologies associées.",
-      skills: ["HTML", "CSS", "JavaScript", "PHP", "Git", "GitHub"],
-      pdfUrl: "/portfolio/certificates/certification_gdsc.pdf",
-      image: "/portfolio/certificates/gdsc_logo.png",
+      title: "Network Security",
+      issuer: "Cisco Networking Academy",
+      date: "21 January 2026",
+      description: "Gaining foundational knowledge in network security, threat mitigation, and protection of data assets and network systems.",
+      skills: [
+        "AAA",
+        "Cryptography",
+        "Layer 2 Attacks",
+        "Intrusion Prevention Systems",
+        "Remote-access VPNs",
+        "Zone-Based Policy Firewall",
+      ],
+
+      badge: true,
+      image: "/portfolio/certificates/networksec.png",
+      pdfUrl: "/portfolio/certificates/networksecpdf.pdf",
+      badgeUrl: "https://www.credly.com/earner/earned/badge/a0f24b90-f523-4fd7-9b46-fa157a6092e9",
     },
+
+    {
+      title: "CyberOps Associate",
+      issuer: "Cisco Networking Academy",
+      date: "22 January 2026",
+      description: "Gaining a broad understanding of security operations, including network monitoring, intrusion detection and analysis, and problem-solving through hands-on labs using Security Onion (ELK) and Cisco Packet Tracer.",
+      skills: [
+        "Attack Methods",
+        "Cybersecurity",
+        "Endpoint Threat Analysis",
+        "Incident Response",
+        "Malware Analysis",
+        "Threat Detection",
+        "SOC Metrics",
+      ],
+
+      badge: true,
+      image: "/portfolio/certificates/cyberops.png",
+      pdfUrl: "/portfolio/certificates/cyberopspdf.pdf",
+      badgeUrl: "https://www.credly.com/earner/earned/badge/ed826e0c-1fd0-47ea-b0fe-62c58811fc98",
+    },
+
   ];
 
   return (
     <section id="certificates" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Certificats & Qualifications</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Certificates & Qualifications</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-4" />
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Mes certifications professionnelles et formations continues
+            My professional certifications and continuing education
           </p>
         </div>
 
@@ -91,7 +132,7 @@ const Certificates = () => {
                   </div>
                   {cert.badge && (
                     <Badge variant="secondary" className="text-xs">
-                      Badge en ligne
+                      Online badge
                     </Badge>
                   )}
                 </div>
@@ -129,7 +170,7 @@ const Certificates = () => {
                   <Button variant="default" size="sm" className="w-full" asChild>
                     <a href={cert.badgeUrl} target="_blank" rel="noopener noreferrer">
                       <ExternalLink className="w-4 h-4 mr-2" />
-                      Voir le badge
+                      View badge
                     </a>
                   </Button>
                 )}
@@ -138,7 +179,7 @@ const Certificates = () => {
                   <Button variant="outline" size="sm" className="w-full" asChild>
                     <a href={cert.pdfUrl} target="_blank" rel="noopener noreferrer">
                       <ExternalLink className="w-4 h-4 mr-2" />
-                      Voir le certificat (PDF)
+                      View certificate (PDF)
                     </a>
                   </Button>
                 )}
