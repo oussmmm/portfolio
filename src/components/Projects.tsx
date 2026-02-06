@@ -6,42 +6,53 @@ import { Badge } from "@/components/ui/badge";
 const Projects = () => {
   const projects = [
     {
-      title: "Sortie Val-d’Oise",
+      title: "Active Directory lab + C2 attack simulation",
       description:
-        "Site web dédié aux idées de sorties et d’activités dans le Val-d’Oise. Les événements sont récupérés via des API, et les utilisateurs peuvent proposer leurs propres idées grâce à un espace personnel avec connexion sécurisée.",
-      technologies: ["PHP", "MySQL", "API", "JSON", "XML", "HTML", "CSS", "JavaScript"],
+        "Implementation of an Active Directory environment with Command-and-Control (C2) attack simulations for hands-on cybersecurity scenarios.",
+      technologies: ["Active Directory", "C2", "Metasploit", "Scan", "BloodHound", "Hash", "Privilege Escalation", "Pivoting"],
       image: "/portfolio/banc_valdoise.webp",
-      githubUrl: "https://github.com/dylan-manseri/SortieValdOise",
-      liveUrl: "https://sortievaldoise.alwaysdata.net",
     },
 
     {
-      title: "Système de gestion de parking connecté",
-      description: "Conception d'un système distribué avec des bornes simulées (en Python) communiquant via TCP avec un serveur applicatif (Java) relié à une base PostgreSQL. Site web pour le suivi en temps réel, la gestion et l'analyse des données.",
-      technologies: ["Python", "Java", "PostgreSQL", "TCP", "Web"],
+      title: "ViperAI Security Agent",
+      description: "Development of an intelligent AI agent that analyzes target domains, reasons over detected security issues, prioritizes potential vulnerabilities, and produces automated security assessment reports.",
+      technologies: ["Python", "LLMs", "Automation", "AI", "Agent","Domain & Network Reconnaissance", "Security", "Vulnerability Analysis"],
       image: "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?w=800&h=500&fit=crop",
       githubUrl: "https://github.com/fari-za/projet_parking",
     },
     {
-      title: "Simulateur d'un système de gestion de bases de données",
-      description: "Développement en Java d'un simulateur de SGBD interprétant des requêtes SQL et générant des plans d'exécution en arbre binaire, avec tests unitaires (JUnit).",
-      technologies: ["Java", "SQL", "JUnit"],
+      title: "Object detection and counting model",
+      description: "Development, and evaluation of a YOLO-based deep learning system for real-time object detection and counting, including dataset preparation, model training, performance optimization, and validation.”",
+      technologies: ["AI", "Machine Learning", "Deep Learning" , "YOLO5"],
       image: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=800&h=500&fit=crop",
       githubUrl: "https://github.com/fari-za/data_base",
       
     },
     {
-      title: "Site web pour la météo",
-      description: "Développement d'un site web de visualisation de données météo en temps réel. Suivi des villes consultées, gestion des préférences via cookies et affichage statistique. Intégration d'APIs externes avec échanges de données aux formats XML et JSON.",
-      technologies: ["HTML", "CSS", "JavaScript", "PHP", "API", "XML", "JSON"],
-      image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800&h=500&fit=crop",
-      githubUrl: "https://github.com/fari-za/site_meteo",
-      liveUrl: "https://fariza-faradji.alwaysdata.net",
+      title: " Design and simulation of an enterprise network using Cisco Packet Tracer",
+      description: "Design and simulation of a scalable enterprise network using Cisco Packet Tracer, including routing, switching, and essential network services.",
+      technologies: ["Cisco Packet Tracer", "TCP/IP", "IPv4", "VLANs", "Switching & Routing", "DHCP", "DNS", "NAT / PAT", "ACLs"],
+      image: "data:image/png;base64,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",
+      
     },
     {
-      title: "Extraction et manipulation de métadonnées d'images",
-      description: "Développement en Java d'une application pour extraire et manipuler les métadonnées EXIF/XMP d'images via des bibliothèques Java.",
-      technologies: ["Java", "EXIF", "XMP"],
+      title: "Implementation of a secure Fortinet-based Hub-and-Spoke solution.",
+      description: "Design and implementation of a secure Hub-and-Spoke architecture using Fortinet solutions, including encrypted tunnels, centralized routing, and secure inter-site connectivity.",
+      technologies: ["Fortinet", "Hub-and-Spoke Architecture", "SD-WAN", "IPsec VPN", "Firewall Policies", "OSPF"],
+      image: "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?w=800&h=500&fit=crop",
+      githubUrl: "https://github.com/fari-za/metadonnees_image",
+    },
+     {
+      title: "Development of a web application for managing a kindergarten using full-stack Angular and PHP",
+      description: "Design and development of a full-stack web application for managing kindergarten operations, including student records, attendance tracking, and administrative tasks, using Angular for the front-end and PHP for the back-end.",
+      technologies: ["Angular", "PHP", "MySQL", "JavaScript", "SCSS", "HTML5"],
+      image: "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?w=800&h=500&fit=crop",
+      githubUrl: "https://github.com/fari-za/metadonnees_image",
+    },
+    {
+      title: "Development of a booking website in Tunisia, built with HTML, CSS, Bootstrap and PHP",
+      description: "Design and implementation of a responsive booking website for Tunisia, featuring service listings, reservation management, and user account functionality, built with HTML, CSS, Bootstrap, and PHP.",
+      technologies: ["Bootstrap", "PHP", "MySQL", "CRUD", "WAMP", "Front-end", "Back-end"],
       image: "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?w=800&h=500&fit=crop",
       githubUrl: "https://github.com/fari-za/metadonnees_image",
     },
@@ -51,10 +62,10 @@ const Projects = () => {
     <section id="projects" className="py-20 bg-section-bg">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Mes Projets</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">My Projects</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-4" />
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Découvrez une sélection de mes projets académiques et personnels
+            Discover a selection of my academic and personal projects
           </p>
         </div>
 
