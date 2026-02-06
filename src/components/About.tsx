@@ -7,7 +7,7 @@ const About = () => {
     <section id="about" className="py-20 bg-section-bg">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">À propos de moi</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">About me</h2>
           <div className="w-20 h-1 bg-primary mx-auto" />
         </div>
 
@@ -19,7 +19,7 @@ const About = () => {
               <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
                 <img 
                   src="/portfolio/photo_portfolio.png" 
-                  alt="photo Fariza FARADJI" 
+                  alt="photo Oussama Eljed" 
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -29,12 +29,9 @@ const About = () => {
 
           {/* About Content */}
           <div className="animate-slide-up space-y-6">
-            <h3 className="text-2xl font-bold">Bienvenue sur mon portfolio</h3>
+            <h3 className="text-2xl font-bold">Welcome to my portfolio</h3>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              Étudiante en Licence 3 Informatique à CY Cergy Paris Université, je suis actuellement 
-              à la recherche d'un stage de 2 à 4 mois dans les domaines de la Data, du Développement 
-              ou de l'IT, à partir d'avril 2026 (éventuellement suivi d'une alternance de 2 ans à partir 
-              de septembre 2026).
+              Engineering student specializing in Networks and Telecommunications at ENIG, passionate about network architecture, systems security, and cybersecurity. Seeking a Final Year Project in networking, network security, or cybersecurity.
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed">
               
@@ -49,7 +46,7 @@ const About = () => {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Email</p>
-                    <p className="font-medium">farizafaradji@gmail.com</p>
+                    <p className="font-medium">oussamaeljed21@gmail.com</p>
                   </div>
                 </div>
               </Card>
@@ -61,7 +58,7 @@ const About = () => {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Localisation</p>
-                    <p className="font-medium">Île-de-France</p>
+                    <p className="font-medium">Ariana - Tunisia</p>
                   </div>
                 </div>
               </Card>
@@ -70,9 +67,9 @@ const About = () => {
             {/* CV Download Button */}
             <div className="mt-8">
               <Button size="lg" className="w-full" asChild>
-                <a href="/portfolio/CV_Fariza_FARADJI.pdf" download="CV_Fariza_FARADJI.pdf">
+                <a href="/portfolio/Oussama_Eljed_CV.pdf" download="Oussama_Eljed_CV.pdf">
                   <Download className="w-5 h-5 mr-2" />
-                  Télécharger mon CV
+                  Download my CV
                 </a>
               </Button>
             </div>
