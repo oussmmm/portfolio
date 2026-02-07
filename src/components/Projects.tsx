@@ -10,14 +10,14 @@ const Projects = () => {
       description:
         "Implementation of an Active Directory environment with Command-and-Control (C2) attack simulations for hands-on cybersecurity scenarios.",
       technologies: ["Active Directory", "C2", "Metasploit", "Scan", "BloodHound", "Hash", "Privilege Escalation", "Pivoting"],
-      image: "/portfolio/banc_valdoise.webp",
+      image: "/portfolio/cyberattack.jpg",
     },
 
     {
       title: "ViperAI Security Agent",
       description: "Development of an intelligent AI agent that analyzes target domains, reasons over detected security issues, prioritizes potential vulnerabilities, and produces automated security assessment reports.",
       technologies: ["Python", "LLMs", "Automation", "AI", "Agent","Domain & Network Reconnaissance", "Security", "Vulnerability Analysis"],
-      image: "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?w=800&h=500&fit=crop",
+      image: "/portfolio/viperai.jpg",
       githubUrl: "https://github.com/fari-za/projet_parking",
     },
     {
@@ -39,14 +39,14 @@ const Projects = () => {
       title: "Implementation of a secure Fortinet-based Hub-and-Spoke solution.",
       description: "Design and implementation of a secure Hub-and-Spoke architecture using Fortinet solutions, including encrypted tunnels, centralized routing, and secure inter-site connectivity.",
       technologies: ["Fortinet", "Hub-and-Spoke Architecture", "SD-WAN", "IPsec VPN", "Firewall Policies", "OSPF"],
-      image: "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?w=800&h=500&fit=crop",
+      image: "https://zpesystems.com/wp-content/uploads/2023/03/Hub-Spoke.png",
       githubUrl: "https://github.com/fari-za/metadonnees_image",
     },
      {
       title: "Development of a web application for managing a kindergarten using full-stack Angular and PHP",
       description: "Design and development of a full-stack web application for managing kindergarten operations, including student records, attendance tracking, and administrative tasks, using Angular for the front-end and PHP for the back-end.",
       technologies: ["Angular", "PHP", "MySQL", "JavaScript", "SCSS", "HTML5"],
-      image: "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?w=800&h=500&fit=crop",
+      image: "/portfolio/garden.jpg",
       githubUrl: "https://github.com/fari-za/metadonnees_image",
     },
     {
