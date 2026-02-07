@@ -18,14 +18,14 @@ const Projects = () => {
       description: "Development of an intelligent AI agent that analyzes target domains, reasons over detected security issues, prioritizes potential vulnerabilities, and produces automated security assessment reports.",
       technologies: ["Python", "LLMs", "Automation", "AI", "Agent","Domain & Network Reconnaissance", "Security", "Vulnerability Analysis"],
       image: "/portfolio/viperai.jpg",
-      githubUrl: "https://github.com/fari-za/projet_parking",
+      githubUrl: "https://github.com/oussmmm",
     },
     {
       title: "Object detection and counting model",
       description: "Development, and evaluation of a YOLO-based deep learning system for real-time object detection and counting, including dataset preparation, model training, performance optimization, and validation.”",
       technologies: ["AI", "Machine Learning", "Deep Learning" , "YOLO5"],
       image: "https://thepythoncode.com/media/articles/real-time-vehicle-tracking-and-counting-with-yolov8-opencv/lines-drawn-on-the-frame-min.png",
-      githubUrl: "https://github.com/fari-za/data_base",
+      githubUrl: "https://github.com/oussmmm",
       
     },
     {
@@ -40,14 +40,14 @@ const Projects = () => {
       description: "Design and implementation of a secure Hub-and-Spoke architecture using Fortinet solutions, including encrypted tunnels, centralized routing, and secure inter-site connectivity.",
       technologies: ["Fortinet", "Hub-and-Spoke Architecture", "SD-WAN", "IPsec VPN", "Firewall Policies", "OSPF"],
       image: "https://zpesystems.com/wp-content/uploads/2023/03/Hub-Spoke.png",
-      githubUrl: "https://github.com/fari-za/metadonnees_image",
+      githubUrl: "https://github.com/oussmmm",
     },
      {
       title: "Development of a web application for managing a kindergarten using full-stack Angular and PHP",
       description: "Design and development of a full-stack web application for managing kindergarten operations, including student records, attendance tracking, and administrative tasks, using Angular for the front-end and PHP for the back-end.",
       technologies: ["Angular", "PHP", "MySQL", "JavaScript", "SCSS", "HTML5"],
       image: "/portfolio/garden.jpg",
-      githubUrl: "https://github.com/fari-za/metadonnees_image",
+      githubUrl: "https://github.com/oussmmm",
     },
   ];
 
