@@ -24,7 +24,7 @@ const Projects = () => {
       title: "Object detection and counting model",
       description: "Development, and evaluation of a YOLO-based deep learning system for real-time object detection and counting, including dataset preparation, model training, performance optimization, and validation.”",
       technologies: ["AI", "Machine Learning", "Deep Learning" , "YOLO5"],
-      image: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=800&h=500&fit=crop",
+      image: "https://thepythoncode.com/media/articles/real-time-vehicle-tracking-and-counting-with-yolov8-opencv/lines-drawn-on-the-frame-min.png",
       githubUrl: "https://github.com/fari-za/data_base",
       
     },
