@@ -49,13 +49,6 @@ const Projects = () => {
       image: "/portfolio/garden.jpg",
       githubUrl: "https://github.com/fari-za/metadonnees_image",
     },
-    {
-      title: "Development of a booking website in Tunisia, built with HTML, CSS, Bootstrap and PHP",
-      description: "Design and implementation of a responsive booking website for Tunisia, featuring service listings, reservation management, and user account functionality, built with HTML, CSS, Bootstrap, and PHP.",
-      technologies: ["Bootstrap", "PHP", "MySQL", "CRUD", "WAMP", "Front-end", "Back-end"],
-      image: "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?w=800&h=500&fit=crop",
-      githubUrl: "https://github.com/fari-za/metadonnees_image",
-    },
   ];
 
   return (
